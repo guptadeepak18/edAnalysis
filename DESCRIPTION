@@ -1,0 +1,15 @@
+Package: edAnalysis
+Type: Package
+Title: Build & Evaluate Decision Trees
+Version: 0.1.0
+Authors@R: person("Deepak", "Gupta", email = "deepak@analyticsacademy.ml",
+                  role = c("aut", "cre"))
+Description: Exploratory Data Analysis is the major part of any analysis. Slicing and Dicing the data to help with Univariate & Bivariate Analysis helps understand the data better. This package helps with these common tasks in EDA and makes it easy to analyse the data in a very easy and user friendly manner.
+License: GPL-2 | GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports:
+	tidyverse,
+	dplyr,
+	ggplot2
+RoxygenNote: 6.1.99.9000
